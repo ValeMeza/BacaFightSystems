@@ -1,55 +1,137 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- the 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta charset="utf-8"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
-    <!-- latest compiled and minified css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-bvyiisifek1dgmjrakycuhahrg32omucww7on3rydg4va+pmstsz/k68vbdejh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-    <!-- optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rhyon1irsvxv4nd0jutlngaslcjuc7uwjduw9svrlvryoopp2bwygmgjqixwl/sp" crossorigin="anonymous">
-
-    <!-- latest compiled and minified javascript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-tc5iqib027qvyjsmfhjomalkfuwvxzxupncja7l2mcwnipg9mgcd8wgnicpd7txa" crossorigin="anonymous"></script>
+    <!-- My Custom CSS vmeza3@cnm.edu -->
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
-    <title>Baca Fight Systems</title>
-</head>
-<body class="sfooter">
-<di class="sfooter-content">
 
-    <!--begin header and nabar-->
-<header>
+    <title>Baca Fight Systems</title>
+
+    <!-- Bootstrap Core CSS -->
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- Custom CSS -->
+<!--    <link href="css/full-width-pics.css" rel="stylesheet">-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
-        <!--Begin the Bootstrap Navbar - see documentation: http://getbootstrap.com/components/#navbar -->
-        <nav class="navbar navbar-inverse">
-            <div class="navbar-header">
-                <a class="navbar-brand">Baca Fight Systems.</a>
-            </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Baca Fight Systems</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Classes</a>
+                </li>
+                <li>
+                    <a href="#">Schedule</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Full Width Image Header with Logo -->
+<!-- Image backgrounds are set within the full-width-pics.css file. -->
+<header class="image-bg-fluid-height">
+    <img class="img-responsive img-center" src="images/newthaimexico.jpg" alt="newthaimexico">
 </header>
 
-    <!--begin welcome row-->
-<main>
-    <!--begin welcome row-->
+<!-- Content Section -->
+<section>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <div class="content">
-                Baca Fight Systems
-                </div>
+            <div class="col-lg-12">
+                <h1 class="section-heading">Section Heading</h1>
+                <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
             </div>
         </div>
     </div>
-</main>
-   <footer>
-       <div class="container">
-       </div>
-   </footer>
+</section>
+
+<!-- Fixed Height Image Aside -->
+<!-- Image backgrounds are set within the full-width-pics.css file. -->
+<aside class="image-bg-fixed-height"></aside>
+
+<!-- Content Section -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="section-heading">Section Heading</h1>
+                <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <p>BacaFightSystems</p>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
