@@ -18,8 +18,13 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+
     <!-- My Custom CSS vmeza3@cnm.edu -->
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
+
+    <link rel="javascript" href="js/google.js" type="javascript">
+
+
 
     <title>Baca Fight Systems</title>
 
@@ -86,8 +91,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="section-heading">Section Heading</h1>
-                <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h1 class="section-heading">About</h1>
+                <p class="lead section-lead">Gain self-confidence and discipline through Muay Thai, boxing and kickboxing. Additional classes include Women's Fitness and Littile Cobras.<br/>
+                <h2>Description</h2><br/>
+                Baca Fight Systems is a family owned and operated dojo specializing in Muay Thai, kickboxing and boxing. We also provide women's fitness classes. Our instructors individually have 8+ years experience in Muay Thai, Kickboxing, boxing or various forms of karate. We emphasize togetherness, hard work and growth, b</p>
                 <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
             </div>
         </div>
@@ -106,6 +113,21 @@
                 <h1 class="section-heading">Section Heading</h1>
                 <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                <div id="map">
+                    <script>function initMap() {
+                            var uluru = {lat: 	35.0941191, lng: -106.57799749999998};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 15,
+                                center: uluru
+                            });
+                            var marker = new google.maps.Marker({
+                                position: uluru,
+                                map: map
+                            });
+                        }</script>
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5NVACyOsDDSlEpPDxLUxWxqsJi6PulnU&callback=initMap" async defer>
+                    </script>
+                </div>
             </div>
         </div>
         <!-- /.row -->
@@ -125,13 +147,6 @@
     </div>
     <!-- /.container -->
 </footer>
-
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-
 </body>
 
 </html>
