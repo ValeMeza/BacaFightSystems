@@ -32,7 +32,7 @@
     <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 
     <!-- Custom CSS -->
-<!--    <link href="css/full-width-pics.css" rel="stylesheet">-->
+    <!--    <link href="css/full-width-pics.css" rel="stylesheet">-->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -90,12 +90,13 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <h1 class="section-heading">About</h1>
+            <div class="col-md-12">
+                <h1 class="About">About</h1>
                 <p class="lead section-lead">Gain self-confidence and discipline through Muay Thai, boxing and kickboxing. Additional classes include Women's Fitness and Littile Cobras.<br/>
                 <h2>Description</h2><br/>
-                Baca Fight Systems is a family owned and operated dojo specializing in Muay Thai, kickboxing and boxing. We also provide women's fitness classes. Our instructors individually have 8+ years experience in Muay Thai, Kickboxing, boxing or various forms of karate. We emphasize togetherness, hard work and growth, b</p>
-                <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                Baca Fight Systems is a family owned and operated dojo specializing in Muay Thai, kickboxing and boxing. We also provide women's fitness classes. Our instructors individually have 8+ years experience in Muay Thai, Kickboxing, boxing or various forms of karate. We emphasize togetherness, hard work and growth, both physically and mentally.</p>
+                <p class="Classes">
+                </p>
             </div>
         </div>
     </div>
@@ -103,16 +104,26 @@
 
 <!-- Fixed Height Image Aside -->
 <!-- Image backgrounds are set within the full-width-pics.css file. -->
-<aside class="image-bg-fixed-height"></aside>
+<!--<aside class="image-bg-fixed-height"></aside>-->
 
 <!-- Content Section -->
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <h1 class="section-heading">Section Heading</h1>
-                <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+            <div class="col-md-8">
+                <h1 class="Contact">Location and Hours</h1>
+                <ul>
+                    <li>Monday 4:30 PM - 7:00 PM</li>
+                    <li>Tuesday 5:30 PM - 8:00 PM</li>
+                    <li>Wednesday 4:30 PM - 7:00 PM</li>
+                    <li>Thursday 5:30 PM - 7:00 PM</li>
+                    <li>Friday 5:00 PM - 7:00 PM</li>
+                    <li>Saturday 10:00 AM - 7:00 PM</li>
+                    <li>Sunday CLOSED</li>
+                </ul>
+            </div>
+        <div class="row">
+            <div class="col-md-4">
                 <div id="map">
                     <script>function initMap() {
                             var uluru = {lat: 	35.0941191, lng: -106.57799749999998};
@@ -129,9 +140,10 @@
                     </script>
                 </div>
             </div>
+            </div>
         </div>
-        <!-- /.row -->
     </div>
+
     <!-- /.container -->
 </section>
 
@@ -139,7 +151,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-xs-12">
                 <p>BacaFightSystems</p>
             </div>
         </div>
