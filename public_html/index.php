@@ -22,9 +22,6 @@
     <!-- My Custom CSS vmeza3@cnm.edu -->
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
 
-    <link rel="javascript" href="js/google.js" type="javascript">
-
-
 
     <title>Baca Fight Systems</title>
 
@@ -83,7 +80,7 @@
 <!-- Full Width Image Header with Logo -->
 <!-- Image backgrounds are set within the full-width-pics.css file. -->
 <header class="image-bg-fluid-height">
-    <img class="img-responsive img-center" src="images/newthaimexico.jpg" alt="newthaimexico">
+  <!--  <img class="img-responsive" src="images/newthaimexico.jpg" alt="newthaimexico">-->
 </header>
 
 <!-- Content Section -->
@@ -92,11 +89,13 @@
         <div class="row">
             <div class="col-md-12">
                 <h1 class="About">About</h1>
-                <p class="lead section-lead">Gain self-confidence and discipline through Muay Thai, boxing and kickboxing. Additional classes include Women's Fitness and Littile Cobras.<br/>
+                <p class="lead section-lead">Gain self-confidence and discipline through Muay Thai, boxing and kickboxing. Additional classes include Women's Fitness and Little Cobras.<br/>
                 <h2>Description</h2><br/>
                 Baca Fight Systems is a family owned and operated dojo specializing in Muay Thai, kickboxing and boxing. We also provide women's fitness classes. Our instructors individually have 8+ years experience in Muay Thai, Kickboxing, boxing or various forms of karate. We emphasize togetherness, hard work and growth, both physically and mentally.</p>
                 <p class="Classes">
-                </p>
+                    <div class="col-md-8">
+                    <div class="col-md-4 col-sm-4 col-xs-3"><img class="img-responsive" src="images/Image1.jpg"  title="My Caption"></div>
+                </div>
             </div>
         </div>
     </div>
